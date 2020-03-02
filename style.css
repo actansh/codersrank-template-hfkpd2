@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    margin-top:10px;
+
+}
+
+header{
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff6347;
+}
+
+header *{
+    display: inline;
+    height: 50px;
+
+}
+
+header ul{
+    padding: 0px;
+}
+
+header li{
+  margin-left: 50px;
+}
+
+section{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#actanshgaming .profile.image{
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+footer{
+    text-align: center;
+    padding: 500px;
+}
+
+#actanshgaming{
+  font-size: 2em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#actanshgaming{
+  background-image: linear-gradient(rgba(235, 26, 26, 0.822),rgba(56, 5, 5, 0.603)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
+
+#aboutme{
+  background-image: linear-gradient(rgba(235, 26, 26, 0.822),rgba(56, 5, 5, 0.603)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
+
+#contactme{
+  background-image: linear-gradient(rgba(235, 26, 26, 0.822),rgba(56, 5, 5, 0.603)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
+
+footer{
+  background-image: linear-gradient(rgba(180, 11, 62, 0.822),rgba(97, 187, 209, 0.603)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
